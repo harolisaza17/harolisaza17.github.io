@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formu.css">
+</head>
+<body>
+    <nav>
+        <a href="inicio.html">inicio</a>
+        <span><a href="formularios.html">Registro de personal</a></span>
+        <span> <a href="formularios 2.html">Registro de operaciones</a></span>
+        <span><a href="formularios 3.html">Ver progreso de las actividades </a></span>
+       
+    </nav>
+    <div class="contenedor">
+        <h1>Registro de Actividades</h1>
+        <form action="#" method="POST">
+            <label for="nombre-actividad">Nombre de la actividad:</label>
+            <input type="text" id="nombre-actividad" name="nombre-actividad" placeholder="Escribe el nombre de la actividad" required>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea class="textarea" id="descripcion" name="descripcion" placeholder="Describe la actividad" required></textarea>
+
+            <label for="organizacion">Organización responsable:</label>
+            <input type="text" id="organizacion" name="organizacion" placeholder="Escribe el nombre de la organización responsable" required>
+
+            <label for="fecha-horario">Fechas y horarios:</label>
+            <input type="text" id="fecha-horario" name="fecha-horario" placeholder="Ejemplo: 01/05/2025, 9:00 AM - 3:00 PM" required>
+
+            <label for="voluntarios">Número de voluntarios necesarios:</label>
+            <input type="number" id="voluntarios" name="voluntarios" placeholder="Ejemplo: 10" required>
+
+            <label for="requisitos">Requisitos (habilidades, experiencia):</label>
+            <textarea class="textarea" id="requisitos" name="requisitos" placeholder="Describe los requisitos necesarios" required></textarea>
+
+            <label for="beneficios">Beneficios para los voluntarios:</label>
+            <textarea class="textarea" id="beneficios" name="beneficios" placeholder="Ejemplo: Certificación, experiencia práctica, etc." required></textarea>
+
+            <div class="botones">
+                <button type="boton" class="boton-enviar">Registrar Actividad</button>
+                <button type="reset" class="boton-restablecer">Restablecer</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

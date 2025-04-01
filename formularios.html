@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formu.css">
+</head>
+<body>
+    <nav>
+        <a href="inicio.html">inicio</a>
+        <span><a href="formularios.html">Registro de personal</a></span>
+        <span> <a href="formularios 2.html">Registro de operaciones</a></span>
+        <span><a href="formularios 3.html">Ver progreso de las actividades </a></span>
+        
+    </nav>
+
+    <!-- Formulario -->
+    <div class="contenedor">
+        <h1>Registro de personal</h1>
+<div class="datos">
+    <label for="">Escoga su rol</label>
+            <select name="" id="">
+                <option value="">Escoge</option>
+                <option value="">Voluntario</option>
+                <option value="">Organizador</option>
+            </select>
+</div>
+        <div class="datos">
+            <label for="nombre">Digite su nombre</label>
+            <input type="text" id="nombre" placeholder="Nombres">
+        </div>
+
+        <div class="datos">
+            <label for="apellidos">Digite sus apellidos</label>
+            <input type="text" id="apellidos" placeholder="Apellidos">
+        </div>
+
+        <div class="datos">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" placeholder="@ejemplo.com">
+        </div>
+        <div class="datos">
+            <label for="">Disponibilidad de Horario</label>
+            <select name="" id="">
+                <option value="">Seleccione su Horario</option>
+            <option value="">Mañana</option>
+            <option value="">Tarde</option>
+            <option value="">Ambas</option>
+        </select>
+        </div>
+        <div class="datos">
+            <label for="">Direcciòn</label>
+            <input type="text" placeholder=" Ej: carrera 51#47-65 apartamento 207">
+        </div>
+        <div class="datos">
+            <label for="">Habilidades y areas que te interesan</label>
+            <textarea class="textarea" rows="10" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="documento">Seleccione su documento:</label>
+            <select id="documento">
+                <option value="">Escoja el tipo de documento</option>
+                <option value="cc">Cédula de ciudadanía</option>
+                <option value="ce">Cédula extranjería</option>
+                <option value="ti">Tarjeta de identidad</option>
+            </select>
+        </div>
+
+        <div class="Digite">
+            <label for="numero_documento">Digite su número de documento:</label>
+            <input type="number" id="numero_documento" placeholder="Ej: 123456789">
+        </div>
+
+        <!-- Botones -->
+        <div class="botones">
+            <button type="submit" class="boton-enviar">Enviar</button>
+            <button type="reset" class="boton-restablecer">Restablecer</button>
+        </div>
+    </div>
+
+</body>
+</html>
